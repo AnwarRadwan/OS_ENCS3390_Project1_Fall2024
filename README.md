@@ -82,31 +82,6 @@ gcc naive.c -o naive
 gcc fork_version.c -o fork_version
 gcc pthread_version.c -o pthread_version -lpthread
 
-Run Sequential version
 ./naive
-
-Run Multiprocessing version
 ./fork_version
-
-Run Multithreading version
 ./pthread_version
-
-📊 Expected Output
-Top 10 most frequent words
-Execution time for each approach
-Performance comparison table
-📈 Amdahl’s Law Analysis
-
-The report includes:
-
-Serial vs parallel portion of code
-Maximum theoretical speedup
-Effect of number of cores
-Optimal number of threads/processes
-📚 Learning Outcomes
-Linux process management (fork)
-POSIX threads programming
-Parallel performance optimization
-System-level programming in C
-CPU utilization and benchmarking
-Real-world application of Amdahl’s Law
